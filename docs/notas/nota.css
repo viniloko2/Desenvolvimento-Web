@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .aprovado {
+    background-color: #4CAF50;
+  }
+  .reprovado {
+    background-color: #f44336;
+  }
+  .recuperacao {
+    background-color: #2196F3;
+  }
